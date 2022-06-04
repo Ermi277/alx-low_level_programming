@@ -10,18 +10,18 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX() / 2;
 	if (n < 0)
 	{
-		printf("%d\n", "$n is negative");
+		printf("%s\n", "$n is negative");
 	}
 	else if (n == 0)
 	{
-		printf("%d\n", "$n is zero");
+		printf("%s\n", "$n is zero");
 	}
 	else if (n > 0)
 	{
-		printf("%d\n", "$n is posetive");
+		printf("%s\n", "$n is posetive");
 	}
 	return (0);
-
+}
