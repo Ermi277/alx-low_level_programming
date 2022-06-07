@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - task 1
@@ -21,9 +20,4 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}                                       
-}
-int _putchar(char c)
-{
-	putchar(c);
-	return (0);
 }
