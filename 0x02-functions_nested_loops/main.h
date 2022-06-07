@@ -6,4 +6,4 @@
  *
  * Return: 0
  **/
-_putchar(char ci);
+
