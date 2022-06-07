@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	_putchar('_');
 	_putchar('a');
 	return (0);
 }
