@@ -18,4 +18,5 @@ int _putchar(char a, char b, char c, char d, char e, char f, char g, char h)
 	putchar(g);
 	putchar(h);
 	putchar('\n');
+	return (0);
 }
