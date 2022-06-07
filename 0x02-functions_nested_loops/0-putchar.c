@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	_putchar('_','p','u','t','c','h','a','r');
+	_putchar('i');
 	return (0);
 }
