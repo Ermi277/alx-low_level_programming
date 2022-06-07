@@ -9,6 +9,6 @@
 
 int main(void)
 {
-	print_alphabet();
+	print_alphabet_a();
 	return (0);
 }

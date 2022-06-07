@@ -6,7 +6,7 @@
  *
  * Return: 0
  **/
-int print_alphabet()
+int print_alphabet_a()
 {
 	char i;
 
