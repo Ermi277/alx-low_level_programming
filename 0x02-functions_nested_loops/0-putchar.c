@@ -8,14 +8,14 @@
 
 int _putchar(char a, char b, char c, char d, char e,char f, char g, char h)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
 	putchar('a');
-	putchar('r');
+	putchar('b');
+	putchar('c');
+	putchar('d');
+	putchar('e');
+	putchar('f');
+	putchar('g');
+	putchar('h');
 	putchar('\n');
 	return (0);
 }
