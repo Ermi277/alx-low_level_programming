@@ -8,7 +8,7 @@
  *
  * Return: 0
  **/
-int print_alphabeti()
+int print_alphabet()
 {
 	char i;
 
