@@ -1,21 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - _putchar
+ * main - tak0
  *
  *
- * Return: always 0
+ * Return: 0
  **/
 
-int _putchar(char a, char b, char c, char d, char e,char f, char g, char h)
+int main(void)
 {
-	putchar('a');
-	putchar('b');
-	putchar('c');
-	putchar('d');
-	putchar('e');
-	putchar('f');
-	putchar('g');
-	putchar('h');
-	putchar('\n');
+	_putchar('_','p','u','t','c','h','a','r');
 	return (0);
 }

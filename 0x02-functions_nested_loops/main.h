@@ -1,13 +1,21 @@
-#include "0-putchar.c"
+#include <stdio.h>
+
 /**
- * main - this is header
+ * main - task0header
  *
  *
- * Rturn:  0
+ * Return: 0
  **/
 
-int main(void)
+int _putchar(char a, char b, char c, char d, char e, char f, char g, char h)
 {
-	_putchar('_','p','u','t','c','h','a','r');
-	return(0);
+	putchar(a);
+	putchar(b);
+	putchar(c);
+	putchar(d);
+	putchar(e);
+	putchar(f);
+	putchar(g);
+	putchar(h);
+	putchar('\n');
 }
