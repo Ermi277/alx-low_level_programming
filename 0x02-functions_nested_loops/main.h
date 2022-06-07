@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-#endif
 /**
  * main - confuse
  *
@@ -19,3 +18,4 @@ int print_alphabet()
 	putchar('\n');
 	return (0);
 }
+#endif
