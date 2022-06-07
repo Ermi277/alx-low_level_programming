@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - task 1
@@ -15,9 +16,14 @@ int main(void)
 void print_alphabet(void)
 {
 	char i;
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
-								        }
-	_putchar('\n');                                         
+	}                                       
+}
+int _putchar(char c)
+{
+	putchar(c);
+	return (0);
 }
