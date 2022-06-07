@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-#ifndef HEADER_FILE
-#define HEADER_FILE
 #include "main.h"
 
 /**
@@ -27,4 +24,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-#endif
