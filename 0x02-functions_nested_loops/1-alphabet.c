@@ -1,11 +1,6 @@
 #include "main.h"
-/**
- * main - task 1
- *
- *
- * Return: 0
- **/
 
+/* print_alphabet to print a-z*/
 void print_alphabet(void)
 {
 	char i;
