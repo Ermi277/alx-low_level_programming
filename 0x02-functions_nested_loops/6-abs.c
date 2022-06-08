@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _abs - return abs 
+ * _abs - return abs
  *
  * @c: accept integer
  * Return: 0
