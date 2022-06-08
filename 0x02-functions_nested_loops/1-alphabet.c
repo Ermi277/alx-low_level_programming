@@ -1,5 +1,6 @@
 #include "main.h"
 #include "_putchar.c"
+#include "print_alphabet.c"
 /**
  * main - task 1
  *
