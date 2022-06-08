@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _islower() - retunrns 1 or -1
- * c - just an int
- *
+ * _islower - to checke upper or lower
+ * 
+ * @c - is an integer
  * Return: 0
  **/
 
