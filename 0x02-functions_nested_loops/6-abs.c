@@ -7,8 +7,8 @@
  * Return: 0
  */
 
-int _abs(int)
+int _abs()
 {
-	abs(int c);
+	abs();
 	return (0);
 }
