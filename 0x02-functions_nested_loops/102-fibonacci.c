@@ -13,7 +13,6 @@ int main(void)
 	long int a = 0, b = 1;
 	long int sum = a + b;
 
-	printf("%ld, %ld, ", a, b);
 	for (i = 3; i < 53; ++i)
 	{
 		if (i < 52)
