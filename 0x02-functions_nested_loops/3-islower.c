@@ -3,8 +3,8 @@
 
 /**
  * _islower - to checke upper or lower
- * 
- * @c - is an integer
+ *
+ * @c: is an integer
  * Return: 0
  **/
 
