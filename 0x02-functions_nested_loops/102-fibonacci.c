@@ -14,12 +14,19 @@ int main(void)
 	long int sum = a + b;
 
 	printf("%ld, %ld, ", a, b);
-	for (i = 3; i < 50; ++i)
+	for (i = 3; i < 53; ++i)
 	{
-		printf("%ld, ", sum);
-		a = b;
-		b = sum;
-		sum = a + b;
+		if (i < 52)
+		{
+			printf("%ld, ", sum);
+			a = b;
+			b = sum;
+			sum = a + b;
+		}
+		else if (i == 52)
+		{
+			printf("%ld", sum);
+		}
 	}
 	putchar('\n');
 	return (0);
