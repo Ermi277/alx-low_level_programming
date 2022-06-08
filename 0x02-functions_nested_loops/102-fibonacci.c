@@ -13,10 +13,10 @@ int main(void)
 	long int a = 0, b = 1;
 	long int sum = a + b;
 
-	printf("%d, %d, ", a, b);
+	printf("%ld, %ld, ", a, b);
 	for (i = 3; i < 50; ++i)
 	{
-		printf("%d, ", sum);
+		printf("%ld, ", sum);
 		a = b;
 		b = sum;
 		sum = a + b;
