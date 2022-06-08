@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _islower(int c) - retunrns 1 or -1
- *
+ * _islower() - retunrns 1 or -1
+ * c - just an int
  *
  * Return: 0
  **/
