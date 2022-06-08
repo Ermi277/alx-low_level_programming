@@ -10,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if ((islower(c) < 0 || islower(c) > 0) && isalpha(c) > 0)
+	if ((islower(c) < 0 && isalpha(c) > 0) || (islower(c) > 0) && isalpha(c) > 0)
 		return (1);
 	else
 		return (0);
