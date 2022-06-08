@@ -1,6 +1,13 @@
 #include <ctype.h>
 #include "main.h"
 
+/**
+ * _islower - 
+ *
+ *
+ * Return: 0
+ **/
+
 int _islower(int c)
 {
 	if (islower(c) > 0)
