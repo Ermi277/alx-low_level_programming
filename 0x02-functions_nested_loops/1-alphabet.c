@@ -1,14 +1,19 @@
-#include "main.h"
-#include "print_alphabet.c"
+#include "_putchar.c"
 /**
- * main - task 1
+ * main -
  *
  *
- * Return: always 0
+ *
+ * Return: 0
  **/
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char i;
+	
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
