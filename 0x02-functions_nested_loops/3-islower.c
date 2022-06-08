@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - 
+ * _islower - retunrns 1 or -1
  *
  *
  * Return: 0
