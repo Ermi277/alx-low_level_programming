@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-abs(int);
+int abs(int);
 int _abs(int c)
 {
 	abs(c);
