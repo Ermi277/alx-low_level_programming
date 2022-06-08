@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - retunrns 1 or -1
+ * _islower(int c) - retunrns 1 or -1
  *
  *
  * Return: 0
