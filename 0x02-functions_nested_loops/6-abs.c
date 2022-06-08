@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * _abs - 
+ * _abs - return abs 
  *
+ * @c: accept integer
  * Return: 0
- */
+ **/
 int _abs(int c)
 {
 	return (abs(c));
