@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int i;
-	int a = 0, b = 1;
-	int sum = a + b;
-	
+	long int i;
+	long int a = 0, b = 1;
+	long int sum = a + b;
+
 	printf("%d, %d, ", a, b);
 	for (i = 3; i < 50; ++i)
 	{
@@ -23,4 +23,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
