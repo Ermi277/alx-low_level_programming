@@ -21,7 +21,7 @@ int main(void)
 			num = num / dv;
 			if (num == 1)
 			{
-				printf("%d", maxF);
+				printf("%d\n", maxF);
 				break;
 			}
 		}
