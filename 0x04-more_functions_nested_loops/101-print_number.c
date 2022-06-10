@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print out what you give
+ * print_number - print out what you give
  * @n: accept number
  * Return:  no return
  */
