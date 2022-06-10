@@ -3,7 +3,9 @@
 
 /**
  * _isupper - checks for upper case
+ *
  * @c: accept character
+ * Return: 0
  */
 
 int _isupper(int c)
