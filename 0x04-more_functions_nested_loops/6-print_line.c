@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print _line - print line
- *
+ * print_line - print line
+ * @n: input num
  * Return: no return
  */
 
@@ -10,7 +10,7 @@ void print_line(int n)
 {
 	int i = 1;
 
-	while (i <=n)
+	while (i <= n)
 	{
 		_putchar('_');
 		i++;
