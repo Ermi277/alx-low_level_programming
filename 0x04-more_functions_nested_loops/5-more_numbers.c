@@ -12,7 +12,7 @@ void more_numbers(void)
 	int j;
 
 	i = 0;
-	while (i < 1)
+	while (i < 10)
 	{
 		for (j = 0; j < 15; j++)
 		{
@@ -21,4 +21,5 @@ void more_numbers(void)
 		_putchar('\n');
 		i++;
 	}
+	_putchar('\n');
 }
