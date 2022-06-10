@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include "largest_number.c"
 /**
  * largest_number - returns the largest of 3 number
  * Return: largest number
