@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - task 0
+ * reset_to_98 - task 0
  *
- * @*n: pointer
+ * @n: pointer
  * Return: no return
  */
 
