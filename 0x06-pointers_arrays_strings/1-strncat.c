@@ -5,6 +5,7 @@
  * @dest: destination string
  * @src: source string
  * @n: array
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
