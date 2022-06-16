@@ -10,6 +10,11 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	strncat(dest, src, n);
+	int l1 = strlen(dest);
+	
+	while(*(dest + l1) = *(src + i)) < n)
+	{
+		i++;
+	}
 	return (dest);
 }
