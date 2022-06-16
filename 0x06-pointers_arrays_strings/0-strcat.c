@@ -7,7 +7,7 @@
  * Return: no return
  */
 
-char *_strcat(char *dest, char *src)
+char _strcat(char *dest, char *src)
 {
 	strcat(dest, src);
 	return (0);
