@@ -13,8 +13,8 @@ char *_strncat(char *dest, char *src, int n)
 	int l1 = strlen(dest);
 	int i = 0;
 
-	if (n > sizeof(dest))
-		n = sizeof(dest);
+	if (n > l1)
+		n = l1;
 	while (i < n)
 	{
 		*(dest + l1 + i) = *(src + i);
