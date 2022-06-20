@@ -4,6 +4,7 @@
  * _memcpy - copy
  * @dest: destination adress
  * @src: source adress
+ * @n: size of memory
  * Return: dest
  */
 
