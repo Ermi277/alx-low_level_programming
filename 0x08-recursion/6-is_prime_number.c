@@ -6,9 +6,9 @@
  * Return: 1 or 0
  */
 
-int is_prime_number(int n)
+int is_prime_number(int n, int i)
 {
-	static int i = 2;
+	i = 2;
 
 	if (n == 1 || n < 0)
 	{
@@ -25,7 +25,7 @@ int is_prime_number(int n)
 		else
 		{
 			++i;
-			is_prime_number(n);
+			is_prime_number(n, i);
 		}
 	}
 	else
