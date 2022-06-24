@@ -15,14 +15,18 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
+		if (*argv[i] == '0')
+		{
+		}
+		else
+		{
+
 		if (atoi(argv[i]))
 		{
-			if (atoi(argv[i]))
-			{
-				sum += atoi(argv[i]);
-			}
-			else
-				c = 1;
+			sum += atoi(argv[i]);
+		}
+		else
+			c = 1;
 		}
 	}
 	if (c == 0)
