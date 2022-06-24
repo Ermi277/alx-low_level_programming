@@ -17,10 +17,13 @@ int main(int argc, char *argv[])
 	{
 		if (atoi(argv[i]))
 		{
-			sum += atoi(argv[i]);
+			if (atoi(argv[i]))
+			{
+				sum += atoi(argv[i]);
+			}
+			else
+				c = 1;
 		}
-		else
-			c = 1;
 	}
 	if (c == 0)
 	{
