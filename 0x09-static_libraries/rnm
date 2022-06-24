@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for f in *.o.c; do
-   mv -- "$f" "${f%}.c"
-done
- 
