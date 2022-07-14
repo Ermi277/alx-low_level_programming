@@ -1,7 +1,7 @@
 #ifndef LIST_H
 #define LIST_H
 
-#include <stldlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
