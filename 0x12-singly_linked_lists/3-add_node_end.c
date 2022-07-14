@@ -3,6 +3,7 @@
 /**
  * add_node_end- adds new node at the end
  * @head: head of list_t
+ * @str: tring
  * Return: Null or next element adress
  */
 
