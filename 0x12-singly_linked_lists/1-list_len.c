@@ -6,7 +6,7 @@
  * Return: number of element
  */
 
-size_t lit_len(const list_t *h)
+size_t list_len(const list_t *h)
 {
 	long int elt = 0;
 
