@@ -4,6 +4,7 @@
 /**
  * print_listint - print the elements of node
  * @h: head pointer
+ * Return: node
  */
 
 size_t print_listint(const listint_t *h)
