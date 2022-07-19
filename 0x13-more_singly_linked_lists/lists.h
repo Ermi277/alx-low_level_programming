@@ -2,7 +2,7 @@
 #define LIST_H
 
 #include <stdio.h>
-
+#include <malloc.h>
 /**
  * struct listint_s - singly linked list
  * @n: integer
