@@ -17,7 +17,7 @@ unsigned int binary_to_unit(const char *b)
 	{
 		++i;
 	}
-	for (i; i>=0; i--)
+	for (i = i; i>=0; i--)
 	{
 		if (i > 0)
 		{
